@@ -1,0 +1,1 @@
+This directory was copied from aws-copilot-sample-service because it's a git module, and there is no option to commit changes there within the current repository.
