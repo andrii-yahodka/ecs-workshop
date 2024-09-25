@@ -53,7 +53,7 @@ class AmpService(cdk.Stack):
                 log_group=self.adot_log_grp
             ),
             environment={
-                "REGION": getenv('AWS_REGION'),
+                "REGION": 'eu-central-1',
                 "AOT_CONFIG_CONTENT": adot_config
             },
         )
@@ -72,7 +72,7 @@ class AmpService(cdk.Stack):
                 log_group=self.app_log_grp
             ),
             environment={
-                "REGION": getenv('AWS_REGION')
+                "REGION": 'eu-central-1'
             },
         )
 
@@ -100,7 +100,7 @@ class AmpService(cdk.Stack):
         )
 
 
-_env = cdk.Environment(account=getenv('AWS_ACCOUNT_ID'), region=getenv('AWS_DEFAULT_REGION'))
+_env = cdk.Environment(account='471112870134', region='eu-central-1')
 app = cdk.App()
 AmpService(app, "ecsworkshopAmpDemo", env=_env)
 app.synth()
