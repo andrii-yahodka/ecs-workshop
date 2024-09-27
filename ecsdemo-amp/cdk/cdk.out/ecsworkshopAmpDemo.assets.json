@@ -1,7 +1,7 @@
 {
   "version": "22.0.0",
   "files": {
-    "4b0e0fe84fdee97d76a0c984109fc18c59d83ffa4e8b76880b32f74820edeb46": {
+    "29f295998b03b79757f1cee3bf27959b188e049c0face8ad8af765e8606fa6f9": {
       "source": {
         "path": "ecsworkshopAmpDemo.template.json",
         "packaging": "file"
@@ -9,7 +9,7 @@
       "destinations": {
         "471112870134-eu-central-1": {
           "bucketName": "cdk-hnb659fds-assets-471112870134-eu-central-1",
-          "objectKey": "4b0e0fe84fdee97d76a0c984109fc18c59d83ffa4e8b76880b32f74820edeb46.json",
+          "objectKey": "29f295998b03b79757f1cee3bf27959b188e049c0face8ad8af765e8606fa6f9.json",
           "region": "eu-central-1",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::471112870134:role/cdk-hnb659fds-file-publishing-role-471112870134-eu-central-1"
         }
